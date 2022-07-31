@@ -1,1 +1,2 @@
-# sysSolidity
+# solidity
+Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
