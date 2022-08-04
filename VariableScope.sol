@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
+// Các biến trạng thái được lưu trữ vĩnh viễn trong bộ lưu trữ của hợp đồng
+
 // Phạm vi của biến cục bộ (local variable) được giới hạn trong code block mà nó được sử dụng
 // public => can be accessed internally as well as via messages (Truy cập nội bộ contract và thông qua messages). Khi khai báo thì hàm get/set được tạo tự động
 // internal => Các biến trạng thái nội bộ chỉ có thể được truy cập nội bộ từ hợp đồng hiện tại hoặc hợp đồng được kế thừa.
