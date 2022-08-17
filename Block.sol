@@ -57,6 +57,11 @@ contract Block {
         return msg.sig;
     }
 
+    // số wei được gửi cùng với tin nhắn
+    function getWeiMsg() public payable returns (uint) {
+        return msg.value;
+    }
+
     // giá gas của giao dịch
     function getGasPrice() public view returns (uint) {
         return tx.gasprice;
