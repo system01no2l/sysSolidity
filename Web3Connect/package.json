@@ -1,0 +1,15 @@
+{
+  "name": "web3connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.7.5",
+    "ethers": "5.7.0"
+  }
+}
